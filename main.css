@@ -60,3 +60,21 @@ container
 	margin: 0 auto;
 	max-width: 800px;
 }
+
+.news-item
+li{
+	display: inline;
+}
+
+.is-liked{
+	animation: flash 2s;
+}
+
+@keyframes flash{
+	from, 50%, to{
+		opacity: 0;
+	}
+	25%, 75%{
+		opacity: 1;
+	}
+}
